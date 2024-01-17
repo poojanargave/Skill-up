@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+        body{
+            background: rgb(255,255,255);
+        }
+        nav {
+            width: 100%;
+            height: 55px;
+            top: 0;
+            left: 0;
+            display: flex;
+            position: absolute;
+            padding: 20px 8%;
+            align-items: center;
+            justify-content: space-between;
+            backdrop-filter: blur (70px);
+            background: black;
+            position: sticky;
+            margin: 0px;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 35px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        nav ul li button>a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        nav ul li button {
+            padding: 5px 8px;
+            border: none;
+        }
+
+        .Register{
+    background:rgb(24,134,75);
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.login{
+    background:rgb(35,98,159);
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+        nav ul li>a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        div{
+            width: auto;
+            text-align: center;
+           background-color: #DCF2F1;
+            margin: 20px 200px 20px ;
+            height: 800px;
+            border-radius: 10px;
+            padding: 20px 20px;
+             }
+        .rg{
+            background-color: rgb(68,182,120);
+            color: black;
+            height: 50px;
+            text-align: center;
+            border-radius: 1%;
+        }
+        input{
+border-radius: 5px;
+border: none;
+padding: 10x;
+
+        }
+        span{
+            color: blue;
+        }
+        .btn-1,.btn-2{
+            margin: 20px;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: large;
+            font: weight 100px; 
+        }
+        .btn-2{
+            background-color:rgb(28,133,196);
+        }
+        .btn-1{
+            background:rgb(0,149,0);
+        }
+        img{
+        height: 20px;
+        width: 20px;
+        border-radius: 10%;
+        float: left;
+        border-radius: 50%;
+     }
+     div form fieldset label,input{
+        padding: 5px 10px;
+        margin: 10px 20px;
+     }
+     p{
+        line-height: 2em;
+     }
+     fieldset{
+        border: none;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 ><em>𝕊𝕜𝕚𝕝𝕝𝕦𝕡</em></h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Course</a></li>
+            <li><button class="Register"><a href="from.html">Registration</a></button></li>
+            <li><button class="login"><a href="login.html">Login</a></button></li>
+        </ul>
+    </nav>
+    <div>
+    <h1 class="rg"> <a href="index.html"><img src="./image/Arrow.png" alt="Error"></a> <u>Registration Form</u></h1>
+   <form>
+    <lable>First Name</lable>
+    <input type="text" placeholder="Enter First Name "><br>
+    <lable>Middle Name</lable>
+    <input type="text" placeholder="Enter Middle Name "><br>
+    <lable>Last Name</lable>
+    <input type="text" placeholder="Enter Last Name "><br>
+    <lable>Create * password</lable>
+    <input type="password" placeholder="Enter password"><br>
+    <lable>Confirm Password</lable>
+    <input type="password" placeholder="Enter Confirm password"><br>
+    <lable>📞 Mobile No..</lable>
+    <input type="number" placeholder="Enter mobile number"><br>
+    <label>✉ E-mail</label>
+    <input type="email" placeholder="Enter Email"><br>
+    <lable>Address</lable>
+    <input type="text" placeholder="Enter address"><br>
+    <input type="checkbox"> I Accept <span>Terms of Use</Span>
+   <p>Online registration forms are an essential part of successfully planning events <br>like conferences, workshops, classes, and more. Get started  then <br>send it out via email</p>
+<button class="btn-1">Register Now</button>
+<button class="btn-2">Restart</button>
+
+
+   </form> </div>
+</body>
+</html>
